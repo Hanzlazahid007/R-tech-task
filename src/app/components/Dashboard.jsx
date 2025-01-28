@@ -149,7 +149,7 @@ const Dashboard = () => {
                 <DatePicker
                   selected={selectedDate}
                   onChange={(date) => setSelectedDate(date)}
-                  className="pl-10    bg-[#2D1541] text-white font-medium text-sm px-2 py-3  rounded-lg"
+                  className="pl-10  w-full    bg-[#2D1541] text-white font-medium text-sm px-2 py-3  rounded-lg"
                   placeholderText="MM-dd-yyyy"
                   dateFormat="MM-dd-yyyy"
                 />
